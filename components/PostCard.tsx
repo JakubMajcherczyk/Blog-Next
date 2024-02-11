@@ -4,15 +4,26 @@ import { Button, Card } from "flowbite-react";
 interface PostCardProps {
   id: string;
   title: string;
+  date: string;
   description: string;
 }
 
-const PostCard: React.FC<PostCardProps> = ({ id, title, description }) => {
+const PostCard: React.FC<PostCardProps> = ({
+  id,
+  title,
+  date,
+  description,
+}) => {
   return (
-    <Card className="max-w-sm">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        {title}
-      </h5>
+    <Card className="max-w-sm gap-2">
+      <div className="flex justify-between items-center">
+        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {title}
+        </h5>
+        <p className="text-xl font-extralight tracking-tight text-gray-900 dark:text-white">
+          {date}
+        </p>
+      </div>
       <p className="font-normal text-gray-700 dark:text-gray-400">
         {description}
       </p>
@@ -20,8 +31,8 @@ const PostCard: React.FC<PostCardProps> = ({ id, title, description }) => {
         Read more
         <svg
           className="-mr-1 ml-2 h-4 w-4"
-          fill="currentColor"
-          viewBox="0 0 100 100"
+          fill="white"
+          viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path

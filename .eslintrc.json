@@ -1,13 +1,16 @@
+// {
+//   "extends": [
+//     "next/core-web-vitals",
+//     "plugin:@typescript-eslint/recommended",
+//     "prettier",
+//     "plugin:tailwindcss/recommended"
+//   ],
+//   "parser": "@typescript-eslint/parser",
+//   "plugins": ["@typescript-eslint", "tailwindcss"],
+//   "rules": {
+//     "no-unused-vars": "warn"
+//   }
+// }
 {
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:tailwindcss/recommended"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "tailwindcss"],
-  "rules": {
-    "no-unused-vars": "warn"
-  }
+  "extends": "next/core-web-vitals"
 }

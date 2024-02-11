@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pierwszy Projekt w NEXT.JS - Blog
 
-## Getting Started
+## Wstęp i Cel Projektu
 
-First, run the development server:
+Ten projekt to blog stworzony za pomocą Next.js. Celem projektu jest nauka i praktyka tworzenia aplikacji internetowych z wykorzystaniem Next.js, TailwindCSS, Flowbite oraz TypeScript.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Instalacja i Uruchamianie
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aby zainstalować i uruchomić ten projekt lokalnie, wykonaj następujące kroki:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Sklonuj to repozytorium na swoje lokalne środowisko deweloperskie:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`bash
+`git clone https://github.com/JakubMajcherczyk/Blog-Next.git`
 
-## Learn More
+2. Przejdź do katalogu projektu:
+   `cd Blog-Next`
 
-To learn more about Next.js, take a look at the following resources:
+3. Zainstaluj zależności:
+   `npm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Uruchom serwer deweloperski:
+   `npm run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Teraz projekt powinien być dostępny pod adresem `http://localhost:3000`.
 
-## Deploy on Vercel
+   `UWAGA!` W przypadku wystąpienia błędów użyj komendy:
+   `npm install --save-exact --save-dev @types/react @types/node`
+   lub `npm i --legacy-peer-deps`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Struktura Projektu
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Projekt składa się z następujących kluczowych katalogów i plików:
+
+- `pages`: Katalog zawierający wszystkie strony aplikacji. Każdy plik w tym katalogu staje się dostępną stroną.
+- `components`: Katalog zawierający komponenty React używane na stronach.
+- `styles`: Katalog zawierający globalne style CSS.
+- `public`: Katalog zawierający pliki statyczne, takie jak obrazy i pliki JSON.
+- `package.json`: Plik zawierający metadane projektu i listę zależności.
+
+## Komponenty i Logika
+
+Projekt korzysta z kilku kluczowych komponentów:
+
+- `PostCard`: Komponent wyświetlający informacje o poście na stronie głównej.
+- `Navbar`: Komponent wyświetlający pasek nawigacyjny na górze każdej strony.
+- `pages/posts/[id].tsx`: Strona wyświetlająca szczegóły pojedynczego posta.
+
+## Routing i Nawigacja
+
+Routing w aplikacji jest obsługiwany przez Next.js. Każdy plik w katalogu `pages` staje się dostępną stroną. Na przykład, plik `pages/about.tsx` odpowiada za stronę `http://localhost:3000/about`.
+
+## Stylowanie
+
+Projekt korzysta z TailwindCSS do stylowania komponentów. Dodatkowo, używane są biblioteki Flowbite i Flowbite-react do tworzenia predefiniowanych komponentów stylizowanych.

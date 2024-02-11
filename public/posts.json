@@ -2,37 +2,37 @@
   {
     "id": "1",
     "title": "Next.js",
-    "date": "2022-01-01",
-    "description": "Next.js to framework Reacta, który pomaga tworzyć aplikacje webowe."
+    "date": "2024-01-01",
+    "description": "Next.js to narzędzie, które zyskało ogromną popularność wśród twórców stron internetowych. Dlaczego? \n Oto kilka powodów:\n\nPołączenie React.js i SSR: Next.js łączy w sobie najlepsze cechy React.js oraz serwerowego renderowania stron (SSR). Dzięki temu możesz tworzyć aplikacje internetowe, które są zarówno dynamiczne, jak i zoptymalizowane pod kątem SEO.\nGenerowanie stron statycznych i serwerowych: Next.js umożliwia generowanie zarówno stron statycznych, jak i serwerowych na podstawie tych samych komponentów React. To oznacza, że możesz tworzyć szybkie strony, które są doskonale dostosowane do SEO.\nWsparcie dla TypeScript: Next.js oferuje wbudowane wsparcie dla TypeScript, co pozwala na tworzenie bezpiecznych i niezawodnych aplikacji z wykorzystaniem silnego typowania.\nIntegracja z popularnymi narzędziami: Next.js łatwo integruje się z narzędziami takimi jak ESLint, Prettier czy Jest. To sprawia, że proces tworzenia aplikacji jest jeszcze bardziej płynny.\nSystem routingu oparty na systemie plików: Każdy plik w katalogu pages staje się automatycznie dostępną stroną. Dzięki temu tworzenie nowych stron i zarządzanie nimi jest niezwykle proste.\nPodsumowując, Next.js to potężne narzędzie, które warto rozważyć przy tworzeniu nowoczesnych aplikacji internetowych. Bez względu na to, czy jesteś doświadczonym programistą, czy dopiero zaczynasz swoją przygodę z tworzeniem stron internetowych, Next.js może okazać się świetnym wyborem."
   },
   {
     "id": "2",
     "title": "Typescript",
-    "date": "2022-02-01",
-    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+    "date": "2023-12-01",
+    "description": "Typescript to język programowania stworzony przez Microsoft, który jest nadzbiorem JavaScriptu.\n\n Dodaje on statyczne typowanie i obiektowe funkcje programowania, co zwiększa skalowalność i niezawodność dużych aplikacji kodu. \n TypeScript jest kompilowany do czystego JavaScriptu, co oznacza, że może być uruchamiany w dowolnym środowisku, które obsługuje JavaScript. \n TypeScript oferuje również zaawansowane funkcje, takie jak interfejsy, typy generyczne i typy algebraiczne, które pomagają tworzyć bardziej bezpieczny i łatwiejszy do utrzymania kod. \n TypeScript jest również kompatybilny z najnowszymi standardami ECMAScript, co oznacza, że programiści mogą korzystać z najnowszych funkcji JavaScriptu, jednocześnie korzystając z zalet TypeScriptu.\n TypeScript jest szeroko stosowany w nowoczesnym rozwoju front-end, z bibliotekami i frameworkami takimi jak Angular, React i Vue.js, które oferują pełne wsparcie dla TypeScriptu."
   },
   {
     "id": "3",
-    "title": "Typescript",
-    "date": "2022-02-01",
-    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+    "title": "Tailwind CSS",
+    "date": "2023-11-11",
+    "description": "Tailwind CSS to nowoczesny framework CSS, który skupia się na dostarczaniu niskopoziomowych klas narzędziowych, umożliwiających tworzenie niemal dowolnego designu bez opuszczania pliku HTML.\n\nZamiast predefiniowanych komponentów, Tailwind CSS oferuje zestaw małych, wielokrotnego użytku klas, które można łączyć w celu stworzenia unikalnych interfejsów użytkownika.\n\nTailwind CSS jest również wysoce konfigurowalny, z możliwością dostosowania niemal każdego aspektu frameworka do własnych potrzeb. Dzięki temu, Tailwind CSS jest idealnym wyborem dla projektów, które wymagają dużej elastyczności i kontroli nad stylem.\n\nPonadto, Tailwind CSS jest kompatybilny z narzędziami budowania takimi jak Webpack i Parcel, co ułatwia integrację z istniejącymi projektami.\n\nPodsumowując, Tailwind CSS to potężne narzędzie dla nowoczesnych deweloperów front-end, które cenią sobie elastyczność i kontrolę nad swoim kodem CSS."
   },
   {
     "id": "4",
-    "title": "Typescript",
-    "date": "2022-02-01",
-    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+    "title": "Prisma.io",
+    "date": "2023-10-10",
+    "description": "Prisma.io to otwarte narzędzie do obsługi baz danych, które ułatwia pracę z relacyjnymi bazami danych. Prisma.io dostarcza silnik ORM (Object-Relational Mapping), który umożliwia łatwe i bezpieczne wykonywanie zapytań do bazy danych bezpośrednio z języka TypeScript lub JavaScript.\n\nPrisma.io oferuje również narzędzia do migracji schematu bazy danych, co ułatwia utrzymanie i ewolucję struktury bazy danych.\n\nPrisma.io jest kompatybilny z wieloma relacyjnymi bazami danych, takimi jak PostgreSQL, MySQL i SQLite.\n\nPonadto, Prisma.io oferuje silne typowanie, co znacznie zwiększa bezpieczeństwo i niezawodność kodu.\n\nPrisma.io jest idealnym wyborem dla deweloperów, którzy chcą skupić się na tworzeniu aplikacji, a nie na zarządzaniu bazą danych.\n"
   },
   {
     "id": "5",
-    "title": "Typescript",
-    "date": "2022-02-01",
-    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+    "title": "Headless CMS",
+    "date": "2022-09-19",
+    "description": "Headless CMS to nowoczesne podejście do zarządzania treścią, które oddziela warstwę prezentacji od warstwy danych. W tradycyjnym CMS, zarządzanie treścią i jej prezentacja są ściśle powiązane.\n\nNatomiast w Headless CMS, treść jest dostępna poprzez API i może być prezentowana na dowolnej platformie lub urządzeniu. To oznacza, że deweloperzy mogą skupić się na tworzeniu najlepszych możliwych interfejsów użytkownika, niezależnie od technologii, której używają.\n\nHeadless CMS jest idealnym rozwiązaniem dla projektów, które wymagają wielokanałowej dystrybucji treści, takich jak strony internetowe, aplikacje mobilne, ekrany cyfrowe i wiele innych.\n\nPonadto, Headless CMS często oferuje funkcje takie jak wersjonowanie treści, zarządzanie wielojęzycznością i obsługa wielu użytkowników, co czyni go potężnym narzędziem dla zespołów redakcyjnych.\n"
   },
   {
     "id": "6",
-    "title": "Typescript",
-    "date": "2022-02-01",
-    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+    "title": "Backend Node.js",
+    "date": "2023-08-13",
+    "description": "Node.js to platforma oparta na silniku JavaScript V8 od Google, która umożliwia tworzenie szybkich i skalowalnych aplikacji sieciowych. Jest to idealne rozwiązanie dla backendu, ponieważ oferuje asynchroniczne I/O, co oznacza, że może obsługiwać wiele operacji jednocześnie bez blokowania wątku głównego.\n\nNode.js jest również znane z łatwości integracji z różnymi bazami danych, takimi jak MongoDB, MySQL czy PostgreSQL. Dzięki wsparciu dla pakietów npm, deweloperzy mają dostęp do ogromnej biblioteki modułów, które mogą ułatwić rozwój aplikacji.\n\nNode.js jest również kompatybilne z wieloma frameworkami, takimi jak Express.js, Koa.js czy Nest.js, które mogą przyspieszyć proces tworzenia aplikacji.\n\nPodsumowując, Node.js to potężne narzędzie dla backendu, które oferuje szybkość, skalowalność i dużą elastyczność.\n"
   }
 ]
