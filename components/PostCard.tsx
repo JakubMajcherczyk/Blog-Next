@@ -14,8 +14,13 @@ const PostCard: React.FC<PostCardProps> = ({
   date,
   description,
 }) => {
+  const words = description.split(" ");
+  const firstTwelveWords = words.slice(0, 12).join(" ");
+  const displayDescription =
+    words.length > 12 ? firstTwelveWords + "..." : firstTwelveWords;
+
   return (
-    <Card className="max-w-sm gap-2">
+    <Card className="max-w-sm gap-2 h-64">
       <div className="flex justify-between items-center">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {title}
@@ -25,7 +30,7 @@ const PostCard: React.FC<PostCardProps> = ({
         </p>
       </div>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        {description}
+        {displayDescription}
       </p>
       <Button color="blue" href={`/posts/${id}`}>
         Read more
