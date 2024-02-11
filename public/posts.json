@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Next.js",
+    "date": "2022-01-01",
+    "description": "Next.js to framework Reacta, który pomaga tworzyć aplikacje webowe."
+  },
+  {
+    "id": "2",
+    "title": "Typescript",
+    "date": "2022-02-01",
+    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+  },
+  {
+    "id": "3",
+    "title": "Typescript",
+    "date": "2022-02-01",
+    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+  },
+  {
+    "id": "4",
+    "title": "Typescript",
+    "date": "2022-02-01",
+    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+  },
+  {
+    "id": "5",
+    "title": "Typescript",
+    "date": "2022-02-01",
+    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+  },
+  {
+    "id": "6",
+    "title": "Typescript",
+    "date": "2022-02-01",
+    "description": "Typescript to język programowania, który jest nadzbiorem JavaScriptu."
+  }
+]
