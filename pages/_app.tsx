@@ -1,3 +1,4 @@
+import { ThemeProvider } from "../context/ThemeContext";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Navbar from "../components/Navbar";
@@ -5,8 +6,10 @@ import Navbar from "../components/Navbar";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <ThemeProvider>
+        <Navbar />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

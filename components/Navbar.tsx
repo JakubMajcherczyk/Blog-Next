@@ -1,16 +1,21 @@
 import Link from "next/link";
+// import { useState } from "react";
+import { useTheme } from "../context/ThemeContext";
 import {
   Navbar,
   NavbarBrand,
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
+  Button,
 } from "flowbite-react";
 import Image from "next/image";
 export default function NavigationBar() {
+  const { darkMode, toggleTheme } = useTheme();
+
   return (
-    <div className="border-b-2">
-      <Navbar fluid rounded className="max-w-screen-lg mx-auto">
+    <div className="border-b-2 ">
+      <Navbar fluid rounded className="max-w-screen-lg mx-auto dark:bg-sky-950">
         <NavbarBrand
           as={Link}
           href="/"
@@ -27,6 +32,9 @@ export default function NavigationBar() {
             FIRST PROJECT - BLOG
           </span>
         </NavbarBrand>
+        <Button onClick={toggleTheme}>
+          {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+        </Button>
         <NavbarToggle />
         <NavbarCollapse>
           <NavbarLink as={Link} href="/" active className="font-bold text-xl">
